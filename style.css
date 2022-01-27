@@ -1,0 +1,118 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c7c3c3;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+.logoTitle{
+    color: blanchedalmond;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.navItem{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 20px;
+    margin: 0 20px;
+  
+}
+
+.navItem:hover{
+    color: white;
+    transition: 2s;
+}
+
+/* ------------------post--------------- */
+
+.post{
+    width: 70%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    -webkit-box-shadow: 1px 1px 18px 9px rgba(0,0,0,0.78); 
+    box-shadow: 1px 1px 18px 9px rgba(0,0,0,0.78);
+    border-radius: 5px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.postTitle{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.postImg{
+    width: 70%;
+}
+
+.descropton{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.postBtn{
+    width: 150px;
+    background-color: black;
+    color: blanchedalmond;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    transition: 1.5s, ease-in-out ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.postBtn:hover{
+    background-color: blanchedalmond;
+    color: black;
+    font-weight: 400;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapper{
+        padding: 10px;
+    }
+
+    .postTitle{
+        font-size: 2rem;
+    }
+}
